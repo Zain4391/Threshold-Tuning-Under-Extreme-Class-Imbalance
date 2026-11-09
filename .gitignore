@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Downloaded dataset cache (re-created automatically, ~95 MB)
+cache/
+
+# Console logs of the full run (~70 MB)
+logs/
+
+# Superseded early runs (replaced by the v2_* folders)
+results_*/
+exp_b.py
+pipeline_example.csv
+
+# Manuscripts (not part of the code release)
+*.docx
+*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
